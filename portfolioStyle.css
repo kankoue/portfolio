@@ -2,17 +2,15 @@ body {
     background: rgb(255, 255, 255);
 }
 
-
-#milk {font-size: 2.5rem;
-
+#milk {
+    font-size: 2.5rem;
     color: rgb(71, 55, 192);
     font-family: 'Times New Roman', Times, serif;
-
-
 }
 #milk2 {font-size:2.0rem;
 color:rgb(5,79,98);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+/* TODO: You don't need the <style> tag in your css file. */
 <style type="text/css">
 body {
 	background:#111111;
@@ -34,6 +32,8 @@ body {
 	-webkit-box-shadow:0px 0px 30px #000;
 	-o-box-shadow:0px 0px 30px #000;
 }
+/* TODO:  Looks like you have some HTML here, so delete this extra stuff.
+Remember elements and tags use angle brackets - < and > - and goes in your .HTML files.   CSS uses the curly braces - { and } - and goes in your .CSS files. */
 </style>
 </head>
 <body>
