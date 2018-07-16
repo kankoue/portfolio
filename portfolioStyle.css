@@ -13,3 +13,31 @@ body {
 #milk2 {font-size:2.0rem;
 color:rgb(5,79,98);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+<style type="text/css">
+body {
+	background:#111111;
+}
+@font-face {
+	font-family:futura;
+	src:url(http://ttfonts.net/sfonts/1/16000_FUTURABI.ttf);
+}
+#logo {
+	font-family:futura;
+	font-size:60px;
+	color:#fff;
+	background:#F20000;
+	text-align:center;
+	margin:10px;
+	padding:10px;
+	box-shadow:0px 0px 30px #000;
+	-moz-box-shadow:0px 0px 30px #000;
+	-webkit-box-shadow:0px 0px 30px #000;
+	-o-box-shadow:0px 0px 30px #000;
+}
+</style>
+</head>
+<body>
+<div align="center" id="logo">
+	Supreme
+</div>
+</body>
