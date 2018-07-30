@@ -1,77 +1,87 @@
 /* TODO: Is this extra file needed? */
+
 .dropbtn {
-    background-color: red;
-    color: white;
-    padding: 9px;
-    font-size: 18px;
-    border: none;
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
-  }
-  
-  .dropdown {
-    position: center;
-    display: inline-block;
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: center;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-style: normal;
-  
-  }
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: lightcoral;}
-  
-  @font-face {
-    font-family: 'Futura'; /*a name to be used later*/
-    src: url('Futura Heavy.ttf'); /*URL to font*/
-  }
-  
-  h1 {
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
-  }
-  
-  /*.container {
+  background-color: red;
+  color: white;
+  padding: 9px;
+  font-size: 18px;
+  border: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dropdown {
+  position: center;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dropdown-content {
+  display: none;
+  position: center;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-style: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightcoral;
+}
+
+@font-face {
+  font-family: 'Futura';
+  /*a name to be used later*/
+  src: url('Futura Heavy.ttf');
+  /*URL to font*/
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*.container {
   align-content: center;
   width: 200px;
   height: 120px;
   }
   */
-  /* resize images */
-  .container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  body {
-    text-align: center;
-  
-  }
-  
-  iframe {
-    width: 50%;
-    height: 1000px;
-  }
+
+/* resize images */
+
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  text-align: center;
+}
+
+iframe {
+  width: 50%;
+  height: 1000px;
+}

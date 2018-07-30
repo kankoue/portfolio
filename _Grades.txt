@@ -1,33 +1,44 @@
-Assignment: Use CSS ID selectors to style two paragraphs on your About Me page differently.
+Portfolio final grade: 75
 
-Grade: 100
-
-Comment: Good job with this.
+Comments:  Copying examples from other places is fine as a starting point, but it's really important to remove the parts you aren't using and really understand what the parts you keep are doing for you.  Taking shortcuts can hurt your work as much as help if you aren't careful.
 
 ########
 
-Assignment: Add an image to your About Me page and edit the CSS so the image and paragraphs are side-by-side.
+Code Quality:  Does it follow proper HTML and CSS rules, including the Clean HTML Tips and other issues noted in class?
 
-Grade:  50
+Grade: 78
+(50% of overall grade)
 
-Comment:  You have the img tag and it works, but you didn't do the CSS styles to make the image and paragraphs beside each other.
-
-########
-
-Overall Portfolio:  Does it follow proper HTML and CSS rules, including the Clean HTML Tips and other issues noted in class?
-
-Grade:  90
-
-Comment: Over a good start, just be careful about where your content goes between tags.
-
-I did note a few things as TODO items in your code.   You can view them by clicking the ToDo Tree icon on the left of your VS Code window.
-
-
+Points deducted for these items:
+    -5 Projects and Index pages include copied/unused content outside of the regular HTML.
+    -5 Navigation links on Index page point to local files (c drive), and break on the web.
+    -5 Document tile missing / not changed from default
+    -1 Resume page has content outside of the <body> tags
+    -2 Index page uses <styles> tag and inline styles instead of CSS file for styling.
+    -2 Different styles used on Index and all other pages.
+    -2 Index stylesheet links incomplete and not inside the <head> tag
 
 ########
 
-Assignment: Use Google Forms to add a contact form to your page.
+Design and Accessibility:  Does it incorporate the CSS techniques covered in class and incorporate accessibility support for at least one of the areas we discussed?
 
-Grade: 98
+Grade: 90
+(25% of overall grade)
 
-Comment:  Good job.  Try to keep your content consistently below or above the Navigation - pick one and stick with it.
+Points deducted for these items:
+    -2 Paragraph content runs over picture on About page, which makes it unreadable.
+    -3 Misplaced font-family properties in css file.
+    -5 Unused css selectors in the css file. 
+
+########
+
+Advanced CSS:  Does it use advanced css techniques, like animations/transitions and media queries for mobile responsiveness?
+
+Grade: 55
+(25% of overall grade)
+
+Points deducted for these items:
+    -50 Media queries / mobile responsive design was not used.
+
+Bonus points awarded:
+    +5 for inclusion and proper use of more complicated navigation styles 
